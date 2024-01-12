@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "2284407214",
+    "firebase_url": "https://app-home-iot-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "app-home-iot",
+    "storage_bucket": "app-home-iot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2284407214:android:f4da1f924a2fe12f96a03f",
+        "android_client_info": {
+          "package_name": "com.example.home_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALQ0PEY_GOWYf6eizGnupXwQn320g7OOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2284407214:android:8c06cce466ff956196a03f",
+        "android_client_info": {
+          "package_name": "com.example.new_home"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALQ0PEY_GOWYf6eizGnupXwQn320g7OOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
