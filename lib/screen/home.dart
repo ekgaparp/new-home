@@ -11,10 +11,14 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   bool value = false;
   final db = FirebaseDatabase.instance.ref('Home');
+  String data = 'ON';
   onUpdate() {
     setState(() {
       value = !value;
     });
+    // setState(() {
+    //   data != 'ON' ? 'OFF' : "ON";
+    // });
   }
 
   @override
@@ -71,7 +75,8 @@ class _HomePageState extends State<HomePage> {
   }
 
   Future<void> writeData() async {
-    db.child('Data').set({'Humidity': 0, 'Temperature': 0});
-    db.child('LightState').set({'switch': !value});
+    db.child('Data').set({'Humidity': '32', 'Temperature': '23'});
+    db.child('LightState').set({'switch': value.toString()});
+    // db.child('data').set({'switch': value.toString()});
   }
 }
